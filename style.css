@@ -1,0 +1,68 @@
+.titre{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(255, 133, 208);
+    width:fit-content;
+    padding: 50px;
+    user-select: none;
+    cursor:pointer;
+    transition: 0.8s;
+    border-radius: 20px;
+    text-align: center;
+}
+.titre:hover{
+    background-color: rgb(251, 255, 0);
+    transition: 0.8s;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexcol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexrow{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.minititre{
+    display: none;
+}
+
+
+/* 
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+/* .superpute{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: grey
+} */
+
+.myInput{
+    transition: 0.3s;
+    margin: 20px;
+}
+
+.myInput:hover{
+    background-color: lightgray;
+    transition: 0.3s;
+    border-radius: 10px;
+
+}
